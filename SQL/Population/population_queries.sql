@@ -13,7 +13,7 @@ LIMIT 1;
 
 -- What were the 10 lowest population countries in 2005?
 
-SELECT DISTINCT country population FROM population_years WHERE year = 2005 ORDER BY population ASC LIMIT 10; 
+SELECT DISTINCT country, population FROM population_years WHERE year = 2005 ORDER BY population ASC LIMIT 10; 
 
 -- What are all the distinct countries with a population of over 100 million in the year 2010?
 
